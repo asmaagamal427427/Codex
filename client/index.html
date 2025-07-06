@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Codex - You coding AI Assitant</title>
-    <link rel="stylesheet" href="/src/styles.css" />
+    <title>Codex - Your coding AI Assistant</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="app">
@@ -15,11 +15,13 @@
           name="prompt"
           placeholder="Ask Codex..."
           rows="1"
-          cols="1">
-      </textarea>
-        <button type="submit"><img src="assets/send.svg"></button>
+          cols="1"
+          aria-label="Ask Codex"></textarea>
+        <button type="submit" aria-label="Send">
+          <img src="assets/send.svg" alt="Send" />
+        </button>
       </form>
     </div>
-    <script type="module" src="/src/script.js"></script>
+    <script type="module" src="script.js"></script>
   </body>
 </html>
